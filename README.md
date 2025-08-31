@@ -1,6 +1,4 @@
 # Fetching-data-projects
-Different ways to collect data using python <br>
-**ALL PROJECTS INFO**<br>
 
 ### Web Scraping Books.toscrape.com 📚
 
