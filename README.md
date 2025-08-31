@@ -1,46 +1,25 @@
 # Fetching-data-projects
 Different ways to collect data using python 
-📚 Books to Scrape – Web Scraping Project
+**ALL PROJECTS INFO**
 
-This repository contains a Jupyter Notebook that demonstrates how to scrape book information (titles, prices, and ratings) from the Books to Scrape
- website using Python, Requests, and BeautifulSoup.
+Web Scraping Books.toscrape.com 📚
+This project demonstrates a simple web scraping script written in Python. It's designed to extract book information from the books.toscrape.com website, which is a great site for practicing web scraping.
 
-🚀 Project Overview
+The script uses the requests library to send an HTTP request to the website and the BeautifulSoup library to parse the HTML content.
 
-The goal of this project is to practice web scraping by extracting data from a public website created for educational purposes.
+Key Features ✨
+Data Extraction: The script iterates through 50 pages of the website to collect data for a total of 1000 books.
 
-In the notebook, you will find step-by-step scraping of:
+Information Scraped: It extracts the following details for each book:
 
-✅ Book titles
+Book Name 📖
 
-✅ Book prices
+Price 💰
 
-✅ Book ratings
+Stock Availability ✅
 
-✅ Book links
+Star Rating ⭐
 
-🛠️ Technologies Used
+Data Structuring: The collected data is stored in lists, which are then used to create a Pandas DataFrame for easy viewing and analysis.
 
-Python 3.x
-
-Requests
- – for fetching HTML pages
-
-BeautifulSoup4
- – for parsing HTML
-
-Jupyter Notebook
-
-📒 Notebook Workflow
-
-Import necessary libraries
-
-Send an HTTP request to the website
-
-Parse the HTML response using BeautifulSoup
-
-Locate the book container (article.product_pod)
-
-Extract the book title, price, rating, and URL
-
-Display structured results
+Output: The final DataFrame contains organized columns for each piece of information, as shown in the output of the df.head() command.
