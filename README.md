@@ -1,6 +1,6 @@
 # Fetching-data-projects
-Different ways to collect data using python 
-**ALL PROJECTS INFO**
+Different ways to collect data using python <br>
+**ALL PROJECTS INFO**<br>
 
 Web Scraping Books.toscrape.com 📚
 This project demonstrates a simple web scraping script written in Python. It's designed to extract book information from the books.toscrape.com website, which is a great site for practicing web scraping.
