@@ -19,7 +19,7 @@ The script uses the **`requests`** library to send an HTTP request to the websit
 * **Data Structuring**: The collected data is stored in lists, which are then used to create a **Pandas DataFrame** for easy viewing and analysis.
 * **Output**: The final DataFrame contains organized columns for each piece of information, as shown in the output of the `df.head()` command.
 
-### ✨ Fake Store API Data Analysis: A Python Project
+### ✨ 2. Fake Store API Data Analysis: A Python Project
 
 This project is a simple yet effective demonstration of how to leverage Python libraries like **requests** and **pandas** to interact with a RESTful API, specifically the **Fake Store API**, and transform the retrieved data into a structured format for analysis.
 
@@ -34,13 +34,6 @@ This project is a simple yet effective demonstration of how to leverage Python l
 
 -----
 
-### 📊 What You'll Learn
 
-This notebook is an excellent starting point for anyone interested in:
-
-  * Making HTTP requests to an API.
-  * Handling and parsing JSON data in Python.
-  * Using pandas for data structuring and basic manipulation.
-  * Preparing data for further analysis or visualization.
 
 -----
