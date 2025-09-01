@@ -32,8 +32,4 @@ This project is a simple yet effective demonstration of how to leverage Python l
   * **Targeted Data Selection**: We focus on what's important\! The code creates a clean DataFrame that includes only the essential product details: **'title'**, **'category'**, and **'price'**.
   * **Feature Engineering**: The project goes a step further by extracting the product **'rating'** from the nested JSON response and adding it as a new **'rate'** column. This enriches the dataset, making it more useful for analysis.
 
------
 
-
-
------
